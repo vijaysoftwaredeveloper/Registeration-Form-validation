@@ -1,0 +1,61 @@
+body{
+    background: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+form{
+    
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input[type="text"],[type="password"],select,textarea{
+   
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 ;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+select{
+    width: 100%;
+    
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius:5px ;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+textarea{
+    
+    resize: vertical;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"]{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.error-message{
+    color: red;
+    font-size: 14px;
+    margin-top:5px ;
+}
